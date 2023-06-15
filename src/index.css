@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.4;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+}
+
+::-moz-selection {
+  background-color: #e84855;
+  color: #fff;
+}
+::selection {
+  background-color: #e84855;
+  color: #fff;
+}
