@@ -4,7 +4,7 @@ import ProjectsBlock from "./Components/ProjectsBlock";
 import Footer from "./../../Layout/Footer/Footer";
 import { useEffect } from "react";
 
-const Home = () => {
+const home = () => {
   useEffect(() => {
     document.title = "Frani Bizi - Développeur front-end";
 
@@ -32,4 +32,4 @@ const Home = () => {
     </>
   );
 };
-export default Home;
+export default home;
